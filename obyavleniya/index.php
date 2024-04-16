@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Объявления");
 		"USE_RSS" => "N",
 		"USE_SEARCH" => "N",
 		"COMPONENT_TEMPLATE" => ".default",
-		"SEF_FOLDER" => "/obyavleniya/",
+		"SEF_FOLDER" => "/obyavleniya",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "#SECTION_CODE#/",
