@@ -16,9 +16,9 @@ $arUrlRewrite=array (
     'PATH' => '/o-servise/novosti/index.php',
     'SORT' => 100,
   ),
-  4 => 
+  6 => 
   array (
-    'CONDITION' => '#^/obyavleniya/#',
+    'CONDITION' => '#^/obyavleniya#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/obyavleniya/index.php',

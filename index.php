@@ -2,6 +2,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Мебельная компания");
+$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 ?>
   <div class="slide-one-item home-slider owl-carousel">
 
@@ -163,6 +164,8 @@ false
 			1 => "NAME",
 			2 => "PREVIEW_PICTURE",
 			3 => "TOTAL_AREA",
+			4 => "",
+			5 => "",
 		),
 		"IBLOCKS" => array(
 			0 => "5",

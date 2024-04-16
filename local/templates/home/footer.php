@@ -13,7 +13,7 @@
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"EDIT_TEMPLATE" => "",
 		"COMPONENT_TEMPLATE" => ".default",
-		"PATH" => "include/about_company.php"
+		"PATH" => "/include/about_company.php"
 	),
 	false
 );?>
@@ -50,18 +50,20 @@
 
         <div class="col-lg-4 mb-5 mb-lg-0">
         <?$APPLICATION->IncludeComponent(
-              "bitrix:main.include", 
-              ".default", 
-              array(
-              "AREA_FILE_RECURSIVE" => "Y",
-		          "AREA_FILE_SHOW" => "file",
-		          "AREA_FILE_SUFFIX" => "inc_area_right",
-		          "COMPOSITE_FRAME_MODE" => "A",
-		          "COMPOSITE_FRAME_TYPE" => "AUTO",
-		          "EDIT_TEMPLATE" => "",
-		          "COMPONENT_TEMPLATE" => ".default",
-		          "PATH" => "include/footer_social.php"),
-              false);?>
+	"bitrix:main.include", 
+	".default", 
+	array(
+		"AREA_FILE_RECURSIVE" => "Y",
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc_area_right",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"EDIT_TEMPLATE" => "",
+		"COMPONENT_TEMPLATE" => ".default",
+		"PATH" => "/include/footer_social.php"
+	),
+	false
+);?>
 
 
 
@@ -73,18 +75,20 @@
         <div class="col-md-12">
           <p>
           <?$APPLICATION->IncludeComponent(
-              "bitrix:main.include", 
-              ".default", 
-              array(
-              "AREA_FILE_RECURSIVE" => "Y",
-		          "AREA_FILE_SHOW" => "file",
-		          "AREA_FILE_SUFFIX" => "inc_area_right",
-		          "COMPOSITE_FRAME_MODE" => "A",
-		          "COMPOSITE_FRAME_TYPE" => "AUTO",
-		          "EDIT_TEMPLATE" => "",
-		          "COMPONENT_TEMPLATE" => ".default",
-		          "PATH" => "include/colorlib_copyright.php"),
-              false);?>
+	"bitrix:main.include", 
+	".default", 
+	array(
+		"AREA_FILE_RECURSIVE" => "Y",
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc_area_right",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"EDIT_TEMPLATE" => "",
+		"COMPONENT_TEMPLATE" => ".default",
+		"PATH" => "/include/colorlib_copyright.php"
+	),
+	false
+);?>
            
           </p>
         </div>

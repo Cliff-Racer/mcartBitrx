@@ -147,3 +147,8 @@ IncludeTemplateLangFile(__FILE__);
       </div>
     </div>
   </div>
+  <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "bread_crumbs", Array(
+	
+	),
+	false
+);?>
