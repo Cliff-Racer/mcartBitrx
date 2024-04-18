@@ -65,7 +65,22 @@ IncludeTemplateLangFile(__FILE__);
 		"COMPOSITE_FRAME_TYPE" => "AUTO",
 		"EDIT_TEMPLATE" => "",
 		"COMPONENT_TEMPLATE" => ".default",
-		"PATH" => "/include/company_contacts.php"
+		"PATH" => "/include/company_contacts_phone.php"
+	),
+	false
+);?>
+            <?$APPLICATION->IncludeComponent(
+	"bitrix:main.include", 
+	".default", 
+	array(
+		"AREA_FILE_RECURSIVE" => "Y",
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc_area_right",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"EDIT_TEMPLATE" => "",
+		"COMPONENT_TEMPLATE" => ".default",
+		"PATH" => "/include/company_contacts_mail.php"
 	),
 	false
 );?>
